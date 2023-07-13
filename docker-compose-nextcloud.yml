@@ -11,7 +11,7 @@ services:
       - MYSQL_HOST=db
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
-      - MYSQL_PASSWORD=@@123456987125@@
+      - MYSQL_PASSWORD=SUA_SENHA
     depends_on:
       - db
 
@@ -21,7 +21,7 @@ services:
       - MYSQL_ROOT_PASSWORD=@@123456987125@@
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
-      - MYSQL_PASSWORD=@@123456987125@@
+      - MYSQL_PASSWORD=SUA_SENHA
     volumes:
       - db_data:/var/lib/mysql
 
