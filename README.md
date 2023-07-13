@@ -19,7 +19,7 @@ Certifique-se de ter o Ansible instalado no sistema antes de executar este playb
 
 1. Clone o repositório do GitHub: `git@github.com:Hebert031/Nextcloud-grafana-prometheus.git`
 2. Acesse o diretório do projeto:
-3. Abra o arquivo `hosts` e defina o endereço do host alvo sob o grupo `[cloud01-hstech]`.
+3. Abra o arquivo `hosts` e defina o endereço do host alvo sob o grupo `[Seu-Host]`.
 4. Edite o arquivo `play_docker.yml` e ajuste os caminhos dos arquivos que deseja copiar no diretório `/h/nexcloud`. Certifique-se de ter os arquivos `docker-compose-nextcloud.yml` e `prometheus.yml` disponíveis.
 5. Execute o playbook do Ansible: 
 6. Aguarde até que o playbook seja executado com sucesso e verifique se o ambiente Nextcloud foi configurado corretamente.
