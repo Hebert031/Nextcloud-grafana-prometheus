@@ -1,6 +1,6 @@
 ---
 - name: Configurar ambiente para Nextcloud
-  hosts: cloud01-hstech
+  hosts: SEU HOST AQUI
   become: true
 
   tasks:
