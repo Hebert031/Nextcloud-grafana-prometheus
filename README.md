@@ -4,11 +4,11 @@ Este playbook do Ansible automatiza a configuração do ambiente Nextcloud, bem 
 
 O playbook inclui as seguintes tarefas:
 
-    Criação de diretórios e configuração do ambiente Nextcloud.
-    Cópia de arquivos de configuração necessários para o Nextcloud, Grafana e Prometheus.
-    Instalação do Docker e Docker Compose para gerenciar os contêineres.
-    Configuração e implantação do Grafana para visualização dos dados de monitoramento.
-    Implantação do Prometheus para coletar e armazenar métricas do ambiente.
+* Criação de diretórios e configuração do ambiente Nextcloud.
+* Cópia de arquivos de configuração necessários para o Nextcloud, Grafana e Prometheus.
+* Instalação do Docker e Docker Compose para gerenciar os contêineres.
+* Configuração e implantação do Grafana para visualização dos dados de monitoramento.
+* Implantação do Prometheus para coletar e armazenar métricas do ambiente.
 
 Essa solução permite configurar facilmente um ambiente completo para o Nextcloud, além de fornecer as ferramentas de monitoramento Grafana e Prometheus para acompanhar o desempenho e a saúde do sistema.
 ### Pré-requisitos
