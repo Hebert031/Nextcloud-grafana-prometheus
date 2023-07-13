@@ -1,0 +1,30 @@
+---
+- name: Configurar ambiente para Nextcloud
+  hosts: cloud01-hstech
+  become: true
+
+  tasks:
+    - name: Criar diretório /h/nexcloud
+      file:
+        path: /h/nexcloud
+        state: directory
+
+    - name: Copiar arquivo docker-compose-nextcloud.yml
+      copy:
+        src: ./docker-compose-nextcloud.yml
+        dest: /h/nexcloud/
+
+    - name: Copiar arquivo prometheus.yml
+      copy:
+        src: ./prometheus.yml
+        dest: /h/nexcloud/
+
+    - name: Instalar Docker
+      apt:
+        name: docker.io
+        state: present
+
+    - name: Instalar Docker Compose
+      apt:
+        name: docker-compose
+        state: present
