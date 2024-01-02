@@ -34,6 +34,4 @@ Certifique-se de ter o Ansible instalado no sistema antes de executar este playb
 
 Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas funcionalidades para este playbook. Basta abrir uma pull request no repositório.
 
-### Licença
 
-Este playbook é licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
